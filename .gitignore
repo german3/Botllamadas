@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno y credenciales
+
+# Grabaciones de audio temporales
+recordings/*.webm
+recordings/*.mp3
+recordings/*.wav
+!recordings/.gitkeep
+
+# Base de datos local generada en runtime
+data/database.json
+
+# Logs y temporales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+config.bat
